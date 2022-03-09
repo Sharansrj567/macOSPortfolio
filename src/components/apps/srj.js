@@ -199,10 +199,11 @@ function About() {
       </div>
       <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
         <div>
-          my name is <span className="font-bold">Sharan Jamnani</span> ,
+          My name is <span className="font-bold">Sharan Jamnani</span> ,
         </div>
         <div className="font-normal ml-1">
-          I'm a <span className="text-pink-600 font-bold">Web Developer!</span>
+          I'm a{" "}
+          <span className="text-pink-600 font-bold">Softwar Engineer!</span>
         </div>
       </div>
       <div className=" my-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
@@ -211,9 +212,7 @@ function About() {
       </div>
       <ul className=" leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className=" list-pc">
-          I'm a 3<sup>rd</sup> year{" "}
-          <span className=" font-medium">computer Science student</span>{" "}
-          pursuing my B.E. degree from{" "}
+          I pursued my B.E. in Computer Science from{" "}
           <a href="https://www.git.edu/" rel="noreferrer" target="_blank">
             KLS GIT, Belgaum
           </a>
@@ -226,12 +225,12 @@ function About() {
         <li className=" mt-3 list-time">
           {" "}
           When I am not coding my next project, I like to spend my playing table
-          tennis, playing valorant,watching movies or some courses{" "}
+          tennis, playing valorant,watching movies or some productive courses{" "}
         </li>
         <li className=" mt-3 list-star">
           {" "}
-          And I also have interest in Deep Learning and machine learning in App
-          Development!
+          And I also have interest in Deep Learning and machine learning,
+          blockchain web3 and App Development!
         </li>
       </ul>
     </>
@@ -304,7 +303,8 @@ function Skills() {
             {" "}
             My areas of expertise are{" "}
             <strong className="text-ubt-gedit-orange">
-              Full-stack development, React.js, Node.js(Express), MongoDB!
+              Full-stack development, React.js,Next.js, Node.js(Express),
+              MongoDB!
             </strong>
           </div>
         </li>
@@ -411,7 +411,7 @@ function Projects() {
     {
       name: "Websites",
       description: [
-        "More than 50 static websites for Knowledge Publishing Group(Canada)",
+        "More than 50 static websites most of them for Knowledge Publishing Group(Canada), M16labs, DigitalClinic",
         " Almamatters(Student Internship Portal)",
         " Clinic- Management-System,Keeper(Daily Task Noter)",
         " Secure Auth System",
@@ -433,8 +433,8 @@ function Projects() {
         "CryptoBuddy(Real-time Crypto Tracker App)",
         " Clima-Cool(Real-time Weather Forecasting App)",
         "Leela-Ethinic Wear Online Shopping App (Wordpress WebView App)",
-        " ICamps-Mock(App to Answer survey forms)",
-        " HealtifyMe(Calculates BMI)",
+        " ICamps(App to collect and assess cancer patients)",
+        " Call 4 Swasth (Online-Offline Camp-Screening app which extends the web MetahOS platform)",
       ],
       domains: ["flutter", "firestore", "dart", "firebase auth"],
     },
